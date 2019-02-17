@@ -30,7 +30,7 @@
   </div>
 
   <!--Header / Showcase-->
-  <header class="header">
+  <header id="min-header" class="header">
     <div class="header__menu-box">
       <h4 class="header__logo">FoodHub</h4>
 
@@ -44,20 +44,59 @@
         </ul>
       </nav>
     </div>
-
-    <div class="header__text-box">
-      <h1 class="heading-primary">
-        <div class="heading-primary--main">Welcome to fooHub</div>
-        <div class="heading-primary--sub">Your #1 online food vendor</div>
-      </h1>
-
-      <a href="#" class="btn btn--white btn--animated">Order Today</a>
     </div>
   </header>
 
   <!--Main-->
   <main>
+    <div class="section-checkout">
+      <div class="row">
+        <div class="col-2-of-3">
+          <div class="form">
+            <div class="form__heading">
+              Billing Details
+            </div>
+            <form action="">
+              <input class="form__input" type="text" placeholder="First name">
+              <input class="form__input" type="text" placeholder="Last name">
+              <input class="form__input" type="text" placeholder="Address">
+              <input class="form__input" type="text" placeholder="Email">
+              <input class="form__input" type="text" placeholder="Phone number">
+            </form>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="checkout">
+            <div class="checkout__heading">
+              Your Order
+            </div>
+            <div class="checkout__details">
+              <ul>
+                <li>Product <span class="checkout__details-total">Total</span></li>
+                <li>Fresh Blackberry <span>x 02</span> <span class="checkout__details-total">$720.00</span></li>
+                <li>Fresh Blackberry <span>x 02</span> <span class="checkout__details-total">$720.00</span></li>
+                <li>Fresh Blackberry <span>x 02</span> <span class="checkout__details-total">$720.00</span></li>
+                <li>Fresh Blackberry <span>x 02</span> <span class="checkout__details-total">$720.00</span></li>
+                <li>Total <span class="checkout__details-total">$1620.00</span></li>
+              </ul>
 
+              <div class="checkout__payment-method">
+                <div class="checkout__payment-method-heading">
+                  Credit Card
+                </div>
+                <div class="checkout__payment-method-body">
+                  Pay via Credit Card; you can pay with your credit card, we make sure your details are safe.
+                </div>
+              </div>
+
+              <div class="u-center-text">
+                <a href="#" class="btn-2 btn--green">Proceed to Payment <i class="icon-arrows-right-double"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <!--Footer Section-->

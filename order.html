@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Food Hub</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/font-icon.css">
+  <link rel="stylesheet" href="./css/font-icon.css" />
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
@@ -30,7 +30,7 @@
   </div>
 
   <!--Header / Showcase-->
-  <header class="header">
+  <header id="min-header" class="header">
     <div class="header__menu-box">
       <h4 class="header__logo">FoodHub</h4>
 
@@ -44,20 +44,68 @@
         </ul>
       </nav>
     </div>
-
-    <div class="header__text-box">
-      <h1 class="heading-primary">
-        <div class="heading-primary--main">Welcome to fooHub</div>
-        <div class="heading-primary--sub">Your #1 online food vendor</div>
-      </h1>
-
-      <a href="#" class="btn btn--white btn--animated">Order Today</a>
     </div>
   </header>
 
   <!--Main-->
   <main>
+    <!--Order Details-->
+    <section class="section-order">
+      <div class="u-center-text u-margin-bottom-medium u-margin-top-small">
+        <h2 class="heading-secondary">
+          Product Details
+        </h2>
+      </div>
 
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="order__photo">
+            <img src="./img/food.jpg" alt="order__photo" class="order__photo-main" />
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="order__text-box">
+            <h3 class="heading-tetiary u-margin-bottom-small">
+              Plantain Sauce
+            </h3>
+
+            <p class="paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus, inventore. Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Temporibus, inventore.
+            </p>
+
+            <p class="paragraph">
+              <strong>Ingredient: </strong>plantain, oil, salt
+            </p>
+
+            <p class="paragraph u-margin-bottom-small">
+              <strong>price: </strong>#1200
+            </p>
+
+            <a href="#" class="btn btn--green">add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="order__description-box">
+        <div class="order__description u-margin-bottom-medium u-margin-top-medium">
+          Description
+        </div>
+        <p class="order__description-details">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
+          obcaecati ea qui exercitationem eaque error deserunt perferendis
+          distinctio illo quisquam, aliquam aut recusandae. Dolorem corporis
+          expedita harum dolore itaque, rem incidunt saepe magni aperiam
+          dignissimos ratione fugiat unde maiores accusamus est dolorum vel.
+          Quidem est aliquam soluta magni, id corporis.
+        </p>
+        <div class="order__description-ingredients">
+          <strong>Ingredients: </strong>Lorem, ipsum, dolor, sit, amet,
+          consectetur, adipisicing, elit.
+        </div>
+      </div>
+    </section>
   </main>
 
   <!--Footer Section-->
@@ -87,7 +135,6 @@
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>
