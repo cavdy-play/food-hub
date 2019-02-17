@@ -78,10 +78,10 @@ body {
   margin-bottom: 6rem; }
   @media (max-width: 56.25em) {
     .heading-primary {
-      margin: 4rem 0 0 1rem; } }
+      margin: 6rem 0 0 1rem; } }
   @media (max-width: 37.5em) {
     .heading-primary {
-      margin: 4rem 0 0 1rem; } }
+      margin: 6rem 0 0 1rem; } }
   .heading-primary--main {
     display: block;
     font-size: 4rem;
